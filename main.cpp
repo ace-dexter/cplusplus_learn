@@ -24,7 +24,7 @@ class skbClass
 int main()
 {
 	skbClass bo("Hello world...");
-	cout << bo.getName();
+	cout << "here ou go mann..." << bo.getName()<< endl;
 	
 	bo.setName("sandy barton");	
 	cout << bo.getName() << endl;
