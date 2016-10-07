@@ -10,6 +10,7 @@ int main()
 
 	sallyObject.printCrap();
 	sallyPointer->printCrap();
-
+	
+	cout << "Omg, wtf, it happened!!!" << endl;
 	return 0;
 }

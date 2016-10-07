@@ -5,6 +5,7 @@ class sally
 {
 	public:
 		sally();
+		~sally();
 		void printCrap();
 };
 

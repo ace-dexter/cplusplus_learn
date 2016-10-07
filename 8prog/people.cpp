@@ -1,0 +1,18 @@
+#include<iostream>
+#include "birthday.h"
+#include"people.h"
+
+using namespace std;
+
+people::people(string x, birthday bo)
+: name(x), dateofbirth(bo)
+{
+	
+}
+
+
+void people::printinfo()
+{
+	cout << name << "was born on ";
+	dateofbirth.printdate();
+}
